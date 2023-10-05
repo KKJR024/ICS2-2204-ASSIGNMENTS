@@ -1,0 +1,25 @@
+# Kristian Karani sct211-0533/2022
+
+print("ON")
+print("Enter name")
+name = input()
+print("Enter height")
+height_m = input()
+print("Enter weight")
+weight_kg = input()
+
+bmi = weight_kg / (height_m * height_m)
+print("bmi: ")
+print(bmi)
+if bmi < 18:
+    print(name)
+    print("is underweight")
+
+elif bmi > 18 and bmi < 25:
+    print(name)
+    print("has normalweight")
+
+else bmi > 25:
+    print(name)
+    print("is overweight")
+
