@@ -1,0 +1,15 @@
+# Kristian Karani sct211-0533/2022
+
+from datetime import date
+
+print("AgeCalc")
+print("Enter date of birth (YYYY-MM-DD): ")
+dob = input()
+today = date.today()
+time_difference = today - dob
+D = time_difference.days
+Y = int((D/365)*12)
+Y = int((D/365)
+print(f"Year: {Y}")
+print(f"Month: {M}")
+Print(f"Day: {D}")
